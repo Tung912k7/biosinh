@@ -7,10 +7,24 @@
   <meta name="viewport" content="width=device-width">
   <title>Y Học Tư Vấn</title>
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <style>
+    h3 {
+      animation: fadeOut 1s forwards;
+      animation-delay: 5s;
+    }
+  
+    @keyframes fadeOut {
+      to { 
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  </style>
 </head>
 
-<body>
-  <div id="menu" style="font-weight: bold;">
+<body width="device-width">
+  <h3 style="text-align: center;" > Xoay ngang điện thoại để có trải nghiệm tốt hơn 1 chút! </h3>
+  <div id="menu" class="responsive-menu" style="font-weight: bold;">
     <ul>
       <li><a href="index.html" class='active-page'>Trang chủ</a></li>
       <li><a href="about.html">Cơ sở khoa học</a></li>
@@ -20,12 +34,12 @@
   </div>
   <div class="hero-image">
     <div class="hero-text">
-      <a id = "about-me-button" href="about.html">
+      <a id="about-me-button" href="about.html">
         <button class="glow-on-hover" type="button" style="font-size: 20px; margin-left: -300px;">Cơ sở khoa học</button>
       </a>
     </div>
   </div>
-  <div style="background-color:#fce8c9 ;border-radius: 20px;">
+  <div class="content-section" style="background-color:#fce8c9 ;border-radius: 20px;">
     <h1 style="text-align: center;font-size: 70px; margin-top: 10px;">Khái niệm</h1>
     <div class="container">
       <div class="image" style="text-align: center;">
@@ -36,6 +50,7 @@
           Y học tư vấn hay di truyền học tư vấn là một lĩnh vực cung cấp thông tin cho bệnh nhân và những đối tượng có nguy cơ mắc bệnh di truyền hoặc sinh con mắc bệnh di truyền về nguyên nhân, cơ chế gây bệnh, khả năng mắc bệnh, biện pháp hạn chế và phòng tránh bệnh cho đời con,....
         </p>
       </div>
+    </div>
   </div>
 </body>
 </html>
