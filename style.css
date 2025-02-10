@@ -49,9 +49,9 @@ body, html {
   .hero-image {
   background-image: url("images/1banner.webp");
   
+  max-width: 100%;
   height: auto;
-  width: auto;
-  
+      
   background-position: center;
   background-repeat: no-repeat;
   background-size: fill;
