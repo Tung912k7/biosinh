@@ -35,12 +35,9 @@ body, html {
   }
   /* Change the link color to #111 (black) on hover */
   a:hover {
-    background-color: white;
-    color: black;
-  }
-  .active>a {
-    background-color: red;
-    color: black;
+    background-color: #fadb7b;
+    color: #FF4500;
+    border-radius: 10px;
   }
   li{
     float: left;
@@ -104,15 +101,18 @@ body, html {
   }
   
   .glow-on-hover:active {
-    color: #000
+    color: #000;
+    border-radius: 10px;
   }
   
   .glow-on-hover:active:after {
     background-color: transparent;
+    border-radius: 10px;
   }
   
   .glow-on-hover:hover:before {
     opacity: 1;
+    border-radius: 10px;
   }
   
   .glow-on-hover:after {
